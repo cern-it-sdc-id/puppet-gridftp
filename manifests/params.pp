@@ -81,6 +81,9 @@ class gridftp::params (
     $service = hiera("gridftp::params::service","globus-gridftp-server"),
     
     $udt = hiera("gridftp::params::udt",false),
+    #certiticate and key files should be managed outside the module
+    $certificate =  hiera("gridftp::params::certificate","/etc/grid-security/dpmmgr/dpmcert.pem"),
+    $key = hiera("gridftp::params::key","/etc/grid-security/dpmmgr/dpmkey.pem"),
     ) 
 {
   
