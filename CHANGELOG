@@ -1,3 +1,5 @@
+2016-07-08 Andrea Manzi  <andrea.manzi@cern.ch>
+    * added restart if certificate changes
 2016-01-18 Frederic Schaer  <frederic.schaer@cea.fr>
     * Puppet 4 support
 2015-08-28 Andrea Manzi  <andrea.manzi@cern.ch>
