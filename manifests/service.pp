@@ -1,7 +1,7 @@
 class gridftp::service (
     $service = $gridftp::params::service,
     $certificate = $gridftp::params::certificate,
-    $key = gridftp::params::key,
+    $key = $gridftp::params::key,
 ) inherits gridftp::params {
   
   #certificates should be managed outside this module
