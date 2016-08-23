@@ -10,5 +10,5 @@
   "source": "https://github.com/cern-it-sdc-id/puppet-gridftp",
   "summary": "This package installs and configures a gridftp server",
   "tags": [],
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
