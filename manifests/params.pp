@@ -84,6 +84,7 @@ class gridftp::params (
     #certiticate and key files should be managed outside the module
     $certificate =  hiera("gridftp::params::certificate","/etc/grid-security/dpmmgr/dpmcert.pem"),
     $key = hiera("gridftp::params::key","/etc/grid-security/dpmmgr/dpmkey.pem"),
+    $restart_on_cert_renewal = hiera("gridftp::params::restart_on_cert_renewal",false),
     ) 
 {
   
