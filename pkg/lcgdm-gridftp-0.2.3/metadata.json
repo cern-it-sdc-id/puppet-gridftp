@@ -1,0 +1,23 @@
+{
+  "name": "lcgdm-gridftp",
+  "version": "0.2.3",
+  "author": "puppet",
+  "summary": "This package installs and configures a gridftp server",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/cern-it-sdc-id/puppet-gridftp",
+  "project_page": "UNKNOWN",
+  "requirements": [
+  
+  ],
+  "operatingsystem_support": [
+  
+  ],
+  "description": "This package installs and configures a gridftp server",
+  "tags": [
+  
+  ],
+  "issues_url": "https://github.com/cern-it-sdc-id/puppet-gridftp/issues",
+  "dependencies": [
+  
+  ]
+}

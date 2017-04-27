@@ -1,5 +1,3 @@
-2017-04-27 Andrea Manzi  <andrea.manzi@cern.ch>
-    * added epsv_ip parameter
 2017-02-15 Andrea Manzi  <andrea.manzi@cern.ch>
     * Fixes bug for puppet4. globus_tcp_port_range now accessed as an instance variable in template.
 2016-08-23 Andrea Manzi  <andrea.manzi@cern.ch>

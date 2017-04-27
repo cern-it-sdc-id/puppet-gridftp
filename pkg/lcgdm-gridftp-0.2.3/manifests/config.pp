@@ -65,9 +65,9 @@ class gridftp::config (
     $globus_tcp_port_range      = $gridftp::params::globus_tcp_port_range,
     $globus_udp_port_range      = $gridftp::params::globus_udp_port_range,
     $force_tls			= $gridftp::params::force_tls,
-    $service                    = $gridftp::params::service,
-    $udt                        = $gridftp::params::udt,
-    $epsv_ip                    = $gridftp::params::epsv_ip
+    $service = $gridftp::params::service,
+    $udt = $gridftp::params::udt
+
 ) inherits gridftp::params {
 
   file {"$sysconfigfile":
