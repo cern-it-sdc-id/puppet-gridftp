@@ -1,3 +1,5 @@
+2019-07-14 Petr Vokac <petr.vokac@cern.ch>
+    * LCGDM-2817 allow to configure epsv_match
 2019-02-25 Andrea Manzi  <andrea.manzi@cern.ch>
     * fix sysconfig on c7
 2017-04-27 Andrea Manzi  <andrea.manzi@cern.ch>
