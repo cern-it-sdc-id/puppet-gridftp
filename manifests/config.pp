@@ -67,7 +67,8 @@ class gridftp::config (
     $force_tls			= $gridftp::params::force_tls,
     $service                    = $gridftp::params::service,
     $udt                        = $gridftp::params::udt,
-    $epsv_ip                    = $gridftp::params::epsv_ip
+    $epsv_ip                    = $gridftp::params::epsv_ip,
+    $epsv_match                 = $gridftp::params::epsv_match
 ) inherits gridftp::params {
 
   file {"$sysconfigfile":

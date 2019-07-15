@@ -86,6 +86,7 @@ class gridftp::params (
     $key = hiera("gridftp::params::key","/etc/grid-security/dpmmgr/dpmkey.pem"),
     $restart_on_cert_renewal = hiera("gridftp::params::restart_on_cert_renewal",false),
     $epsv_ip =  hiera("gridftp::params::epsv_ip",false),
+    $epsv_match =  hiera("gridftp::params::epsv_match",false),
     ) 
 {
   
