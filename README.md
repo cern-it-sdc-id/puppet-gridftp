@@ -8,7 +8,7 @@ This is the puppet-gridftp module, it configures a Globus gridftp server, develo
 ASL 2.0
 
 ### Contact
-DPM Devel<dpm-devel-cern@cern.ch>
+DPM Devel <dpm-devel-cern@cern.ch>
 
 ## Support
 Tickets and issues at our [Jira](https://its.cern.ch/jira/projects/LCGDM)
